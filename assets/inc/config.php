@@ -1,0 +1,42 @@
+<?php
+$includePath = 'assets/inc/';
+$uploadPathPersons = 'upload/persons/';
+$uploadPathItems = 'upload/items/';
+$uploadPathAgencies = 'upload/agencies/';
+$uploadPathTestimonials = 'upload/testimonials/';
+$uploadPathPartners = 'upload/partners/';
+
+$pageClasses = array(
+    'item-detail' => 'page-sub-page page-property-detail',
+    'create-account' => 'page-sub-page page-create-account page-account',
+    'profile' => 'page-sub-page page-profile page-account',
+    'sign-in' => 'page-sub-page page-sign-in page-account',
+    'listing' => 'page-sub-page page-listing-masonry page-search-results',
+    'results' => 'page-sub-page page-listing-masonry page-search-results',
+    'results2' => 'page-sub-page page-listing-masonry page-search-results',
+    'results3' => 'page-sub-page page-listing-masonry page-search-results',
+    '404' => 'page-sub-page page-404 page-error',
+    'persons' => 'page-sub-page page-agents-listing',
+    'person-detail' => 'page-sub-page page-agent-detail',
+    'company-detail' => 'page-sub-page page-agency-detail',
+    'companies' => 'page-sub-page page-agencies-listing',
+    'contact' => 'page-sub-page page-contact',
+    'my-items' => 'page-sub-page page-my-properties page-account page-my-items',
+    'submit' => 'page-sub-page page-submit',
+    'tools-site-configuration' => 'page-sub-page page-site-configuration',
+    'tools-persons' => 'page-sub-page tools-persons',
+    'tools-companies' => 'page-sub-page',
+    'tools-services' => 'page-sub-page page-tools-services',
+    'tools-faq' => 'page-sub-page page-tools-faq',
+    'tools-testimonials' => 'page-sub-page page-tools-testimonials',
+    'tools-search-form' => 'page-sub-page page-tools-search-form',
+    'tools-items' => 'page-sub-page page-tools-items',
+    'tools-partners' => 'page-sub-page page-tools-partners',
+    'tools-item-features' => 'page-sub-page page-tools-item-features',
+    'tools-text-banner' => 'page-sub-page page-tools-text-banner',
+    'faq' => 'page-sub-page page-faq',
+    'edit-item' => 'page-sub-page page-edit-item',
+    'edit-person' => 'page-sub-page page-edit-person',
+    'invite' => 'page-sub-page page-invite',
+    'invite_sent' => 'page-sub-page page-invite'
+);
